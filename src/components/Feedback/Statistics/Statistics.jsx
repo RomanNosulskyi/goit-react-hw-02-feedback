@@ -1,5 +1,5 @@
 import { Title, StatsBox, StatList, StatItem } from './Statistics.styled';
-const onStats = ({ good, bad, neutral, total, positivePercentage }) => {
+const OnStats = ({ good, bad, neutral, total, positivePercentage }) => {
   return (
     <>
       <StatsBox>
@@ -18,4 +18,4 @@ const onStats = ({ good, bad, neutral, total, positivePercentage }) => {
     </>
   );
 };
-export { onStats };
+export { OnStats };

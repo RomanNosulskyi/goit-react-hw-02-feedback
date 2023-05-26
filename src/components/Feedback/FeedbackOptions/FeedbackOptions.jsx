@@ -1,7 +1,7 @@
 import PropTypes from 'prop-types';
 import { Title, ButtonBox, Button } from './FeedbackOptions.styled';
 
-const onFeedbackOptions = ({ options, onLeaveFeedback }) => {
+const OnFeedbackOptions = ({ options, onLeaveFeedback }) => {
   return (
     <>
       <Title>Please leave feedback</Title>
@@ -21,7 +21,7 @@ const onFeedbackOptions = ({ options, onLeaveFeedback }) => {
     </>
   );
 };
-onFeedbackOptions.propTypes = {
+OnFeedbackOptions.propTypes = {
   options: PropTypes.array,
 };
-export { onFeedbackOptions };
+export { OnFeedbackOptions };

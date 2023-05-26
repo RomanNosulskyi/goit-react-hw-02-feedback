@@ -1,4 +1,4 @@
-import { onFeedback } from './Feedback/Feedback';
+import { OnFeedback } from './Feedback/Feedback';
 export const App = () => {
   return (
     <div
@@ -7,7 +7,7 @@ export const App = () => {
         padding: '20px',
       }}
     >
-      <onFeedback />
+      <OnFeedback />
     </div>
   );
 };
